@@ -1,0 +1,15 @@
+[package]
+name = "midi-keyboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+coremidi = "^0.8.0"
+
+[[bin]]
+name="midi-server"
+path="src/main.rs"
+
+[[bin]]
+name="midi-ping"
+path="src/send.rs"
